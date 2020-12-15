@@ -41,7 +41,6 @@ namespace CapaLogica
                     aux = "MES NO VALIDO"; break;
 
 
-
             }//fin del switch
             return aux;
         } 
