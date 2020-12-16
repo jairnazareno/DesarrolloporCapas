@@ -25,6 +25,8 @@ namespace CapaPresentacion
 
             int numes = int.Parse(this.txtMes.Text);
             this.lblMensajeMes.Text = CapaLogica.Utilidades.getNombreDelMes(numes);
+
+           
         }
     }
 }

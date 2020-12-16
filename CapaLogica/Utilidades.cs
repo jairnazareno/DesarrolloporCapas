@@ -43,18 +43,19 @@ namespace CapaLogica
 
             }//fin del switch
             return aux;
-            public static Boolean Fecha(String fecha)
+           
+        }
+        public static Boolean Fecha(String fecha)
+        {
+            try
             {
-                try
-                {
-                    DateTime.Parse(fecha);
-                    return true;
-                }
-                catch
-                {
-                    return false;
-                }
+                DateTime.Parse(fecha);
+                return true;
             }
-        } 
+            catch
+            {
+                return false;
+            }
+        }
     }
 }

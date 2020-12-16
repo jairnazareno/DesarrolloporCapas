@@ -42,6 +42,8 @@
             this.txtNombreMes = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtNumMes = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.Datetime = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // label1
@@ -99,7 +101,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(34, 243);
+            this.label4.Location = new System.Drawing.Point(34, 263);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(55, 13);
             this.label4.TabIndex = 6;
@@ -108,7 +110,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(34, 278);
+            this.label5.Location = new System.Drawing.Point(34, 298);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 13);
             this.label5.TabIndex = 7;
@@ -116,14 +118,14 @@
             // 
             // txtResultado
             // 
-            this.txtResultado.Location = new System.Drawing.Point(125, 236);
+            this.txtResultado.Location = new System.Drawing.Point(125, 256);
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.Size = new System.Drawing.Size(257, 20);
             this.txtResultado.TabIndex = 8;
             // 
             // txtMensaje
             // 
-            this.txtMensaje.Location = new System.Drawing.Point(125, 271);
+            this.txtMensaje.Location = new System.Drawing.Point(125, 291);
             this.txtMensaje.Name = "txtMensaje";
             this.txtMensaje.Size = new System.Drawing.Size(257, 20);
             this.txtMensaje.TabIndex = 9;
@@ -131,7 +133,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(34, 318);
+            this.label6.Location = new System.Drawing.Point(34, 338);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(84, 13);
             this.label6.TabIndex = 10;
@@ -139,7 +141,7 @@
             // 
             // txtNombreMes
             // 
-            this.txtNombreMes.Location = new System.Drawing.Point(124, 308);
+            this.txtNombreMes.Location = new System.Drawing.Point(124, 328);
             this.txtNombreMes.Name = "txtNombreMes";
             this.txtNombreMes.Size = new System.Drawing.Size(190, 20);
             this.txtNombreMes.TabIndex = 11;
@@ -160,11 +162,29 @@
             this.txtNumMes.Size = new System.Drawing.Size(100, 20);
             this.txtNumMes.TabIndex = 13;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(34, 209);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(82, 13);
+            this.label8.TabIndex = 14;
+            this.label8.Text = "ingrese la fecha";
+            // 
+            // Datetime
+            // 
+            this.Datetime.Location = new System.Drawing.Point(205, 209);
+            this.Datetime.Name = "Datetime";
+            this.Datetime.Size = new System.Drawing.Size(200, 20);
+            this.Datetime.TabIndex = 15;
+            // 
             // FrmIU
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(456, 340);
+            this.ClientSize = new System.Drawing.Size(466, 395);
+            this.Controls.Add(this.Datetime);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.txtNumMes);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtNombreMes);
@@ -202,5 +222,7 @@
         private System.Windows.Forms.TextBox txtNombreMes;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtNumMes;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.DateTimePicker Datetime;
     }
 }
